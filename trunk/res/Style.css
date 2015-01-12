@@ -1,0 +1,307 @@
+QPushButton#transparentButton{
+	background:transparent;
+}
+
+QPushButton#menuButton{
+	background:transparent;
+}
+QPushButton#menuButton::menu-indicator{
+	image:None;
+}
+
+QPushButton#trayButton{
+	background:transparent; 
+	color:white;
+}
+
+QPushButton#okButton{
+	border:1px solid lightgray;
+	background:rgb(230,230,230);
+}
+QPushButton#okButton:hover{
+	border-color:green;
+	background:transparent;
+}
+
+QPushButton#skinButton{
+	border-radius:3px;
+	border:1px solid rgb(180, 190, 200);
+	color:rgb(70, 70, 70);
+	background:transparent;
+}
+
+QPushButton#greenButton{
+	border-radius:5px;
+	background:rgb(110, 190, 10);
+	color:white;
+}
+QPushButton#greenButton:hover{
+	background:rgb(140, 220, 35)
+}
+
+QPushButton#loginGreenButton{
+	border-radius:2px;
+	background:rgb(110, 190, 10);
+	color:white;
+}
+QPushButton#loginGreenButton:hover{
+	background:rgb(140, 220, 35)
+}
+
+QPushButton#loginButton{
+	color:green;
+	border-image:url(:/contentWidget/login);
+}
+QPushButton#loginButton:hover{
+	color:rgb(110, 190, 10);
+}
+
+QPushButton#blueButton{
+	color:rgb(0, 120, 230);
+	background:transparent;
+}
+QPushButton#blueButton:hover{
+	color:rgb(50, 150, 255);
+}
+
+QPushButton#redButton{
+	border-radius:2px;
+    color:white;
+	background:rgb(240, 50, 70);
+}
+QPushButton#redButton:hover{
+	background:rgb(255, 90, 100);
+}
+
+QPushButton#examineAuthorizeButton{
+	text-align:left;
+	color:rgb(0, 120, 230);
+	background:transparent;
+}
+QPushButton#examineAuthorizeButton:hover{
+	color:rgb(50, 150, 255);
+}
+
+QToolButton#functionButton{
+	background:transparent;
+}
+QToolButton#functionButton:hover{
+	border-radius:5px;
+	border:1px solid rgb(210, 225, 230);
+}
+
+QToolButton#transparentToolButton{
+	background:transparent;
+}
+
+QToolButton#grayToolButton{
+    color:gray;
+	background:transparent;
+}
+
+QLabel#whiteLabel{
+	color:white; 
+}
+
+QLabel#grayLabel{
+	color:gray;
+}
+
+QLabel#infoLabel{
+	color:rgb(30,170,60);
+}
+
+QSplitter::handle{
+	background:lightgray;
+}
+
+QMenu{
+    background:white;
+	border:1px solid lightgray;
+}
+QMenu::item{
+	padding:0px 100px 0px 20px;
+	height:25px;
+}
+QMenu::item:selected:enabled{
+    background:lightgray;
+	color:white;
+}
+QMenu::item:selected:!enabled{
+    background:transparent;
+}
+QMenu::separator{
+    height:1px;
+    background:lightgray;
+	margin:2px 0px 2px 0px;
+}
+
+QMenu#menu{
+    background:white;
+	border:1px solid lightgray;
+}
+QMenu#menu::item{
+	padding:0px 40px 0px 30px;
+	height:25px;
+}
+QMenu#menu::item:selected:enabled{
+    background:lightgray;
+	color:white;
+}
+QMenu#menu::item:selected:!enabled{
+    background:transparent;
+}
+QMenu#menu::separator{
+    height:1px;
+    background:lightgray;
+	margin:2px 0px 2px 0px;
+}
+QMenu#menu::indicator {
+    padding:10px;
+}
+
+QToolTip{
+	border:1px solid gray;
+	background:white;
+	color:black;
+}
+
+QComboBox{
+	border:1px solid rgb(180, 180, 180);
+}
+QComboBox QAbstractItemView::item{
+	height:30px;
+}
+QComboBox::down-arrow{
+	image:url(:/loginDialog/arrowDown);
+}
+QComboBox::drop-down{
+	width:20px;
+	border:none;
+}
+
+QListView::item{
+	background:transparent;
+}
+QListView::item:hover{
+	background:rgb(60, 140, 210);
+}
+
+QLineEdit{
+	border:1px solid rgb(180, 180, 180);
+}
+
+QGroupBox::title{
+	color:green;
+}
+
+QTabWidget::pane{
+	border:none;
+}
+QTabWidget::tab-bar{
+	alignment:center;
+}
+QTabBar::tab{
+	background:transparent;
+	color:white;
+	min-width:30ex;
+	min-height:10ex;
+}
+QTabBar::tab:hover{
+	background:rgb(255, 255, 255, 100);
+}
+QTabBar::tab:selected{
+	border-color: white;
+	background:white;
+	color:green;
+} 
+
+QScrollBar:vertical {               
+	border: 0px solid #990000;
+	background:white;
+	width:10px;    
+	margin: 0px 0px 0px 0px;
+}
+QScrollBar::handle:vertical {
+	background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+	stop: 0  rgb(32, 47, 130), stop: 0.5 rgb(32, 47, 130),  stop:1 rgb(32, 47, 130));
+	min-height: 0px;
+
+}
+QScrollBar::add-line:vertical {
+	background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+	stop: 0  rgb(32, 47, 130), stop: 0.5 rgb(32, 47, 130),  stop:1 rgb(32, 47, 130));
+	height: px;
+	subcontrol-position: bottom;
+	subcontrol-origin: margin;
+}
+QScrollBar::sub-line:vertical {
+	background: none;
+	height: 0px;
+	subcontrol-position: top;
+	subcontrol-origin: margin;
+}
+ 
+QScrollBar::handle:vertical
+{
+    background: rgb(195, 195, 195);
+    min-height: 20px;
+    margin: 0 1px 0 2px;
+    border-radius: 3px;
+    border: none;
+}
+  
+
+QScrollBar::up-arrow:vertical, QScrollBar::down-arrow:vertical 
+{
+    border: 1px solid grey;
+    width: 3px;
+    height: 3px;
+    background: transparent;
+}
+
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical 
+{
+    background: none;
+}
+ 
+
+QScrollBar::handle:horizontal 
+{
+    background: rgb(195, 195, 195);
+    min-width: 20px;
+    margin: 2px 0px 1px 0px;
+    border-radius: 3px;
+    border: none;
+}
+
+QScrollBar::add-line:horizontal 
+{
+    border: 0px solid grey;
+    background: #32CC99;
+    width: 0px;
+    subcontrol-position: right;
+    subcontrol-origin: margin;
+}
+
+QScrollBar::sub-line:horizontal 
+{
+    border: 0px solid grey;
+    background: #32CC99;
+    width: 0px;
+    subcontrol-position: left;
+    subcontrol-origin: margin;
+}
+
+QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal 
+{
+    background: none;
+}
+
+QScrollArea
+{
+	border:0;
+	background:transparent; 
+}
+
+QScrollArea > QWidget > QWidget { background: transparent; }

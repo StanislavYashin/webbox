@@ -1,0 +1,807 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\aux_">
+      <UniqueIdentifier>{3546975e-9011-435c-a805-068384520a49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\extensions">
+      <UniqueIdentifier>{f1bb14ff-2072-4e30-8ee5-3bfebcd5d059}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\kademlia">
+      <UniqueIdentifier>{213d6a97-023f-4f1d-b260-e67a6db1820e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\ed25519">
+      <UniqueIdentifier>{61c59559-0a3c-4696-bcf5-f576d90eb91a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\alert.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\alert_manager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\allocator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\asio.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\asio_ssl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\assert.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\bandwidth_limit.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\bandwidth_manager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\bandwidth_queue_entry.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\bloom_filter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\broadcast_socket.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\bt_peer_connection.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\chained_buffer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\connection_queue.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ConvertUTF.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\create_torrent.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\disk_buffer_holder.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\disk_buffer_pool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\disk_io_thread.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\entry.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\enum_net.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\error_code.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\escape_string.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\file.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\file_pool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\file_storage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GeoIP.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gzip.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\hasher.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\http_connection.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\http_parser.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\http_seed_connection.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\http_stream.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\http_tracker_connection.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\i2p_stream.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\identify_client.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\instantiate_connection.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ip_filter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ip_voter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\kademlia\dht_tracker.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\kademlia\find_data.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\kademlia\get_item.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\kademlia\get_peers.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\kademlia\item.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\kademlia\logging.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\kademlia\node.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\kademlia\node_id.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\kademlia\refresh.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\kademlia\routing_table.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\kademlia\rpc_manager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\kademlia\traversal_algorithm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\lazy_bdecode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\logger.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\lsd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\lt_trackers.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\magnet_uri.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\metadata_transfer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mpi.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\natpmp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\packet_buffer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\parse_url.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\peer_connection.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\pe_crypto.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\piece_picker.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\policy.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\puff.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\random.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\rss.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\session.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\session_impl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\settings.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sha1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\smart_ban.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\socket_io.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\socket_type.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\socks5_stream.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\stat.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\storage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\string_util.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\thread.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\time.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\timestamp_history.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\torrent.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\torrent_handle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\torrent_info.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\tracker_manager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\udp_socket.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\udp_tracker_connection.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\upnp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\utf8.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\utp_socket_manager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\utp_stream.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ut_metadata.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ut_pex.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\web_connection_base.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\web_peer_connection.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\xml_parse.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ed25519\src\add_scalar.cpp">
+      <Filter>头文件\ed25519</Filter>
+    </ClCompile>
+    <ClCompile Include="ed25519\src\fe.cpp">
+      <Filter>头文件\ed25519</Filter>
+    </ClCompile>
+    <ClCompile Include="ed25519\src\ge.cpp">
+      <Filter>头文件\ed25519</Filter>
+    </ClCompile>
+    <ClCompile Include="ed25519\src\keypair.cpp">
+      <Filter>头文件\ed25519</Filter>
+    </ClCompile>
+    <ClCompile Include="ed25519\src\key_exchange.cpp">
+      <Filter>头文件\ed25519</Filter>
+    </ClCompile>
+    <ClCompile Include="ed25519\src\sc.cpp">
+      <Filter>头文件\ed25519</Filter>
+    </ClCompile>
+    <ClCompile Include="ed25519\src\seed.cpp">
+      <Filter>头文件\ed25519</Filter>
+    </ClCompile>
+    <ClCompile Include="ed25519\src\sha512.cpp">
+      <Filter>头文件\ed25519</Filter>
+    </ClCompile>
+    <ClCompile Include="ed25519\src\sign.cpp">
+      <Filter>头文件\ed25519</Filter>
+    </ClCompile>
+    <ClCompile Include="ed25519\src\verify.cpp">
+      <Filter>头文件\ed25519</Filter>
+    </ClCompile>
+    <ClCompile Include="ed25519\test.c">
+      <Filter>头文件\ed25519</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="aux_\session_impl.hpp">
+      <Filter>头文件\aux_</Filter>
+    </ClInclude>
+    <ClInclude Include="extensions\logger.hpp">
+      <Filter>头文件\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="extensions\lt_trackers.hpp">
+      <Filter>头文件\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="extensions\metadata_transfer.hpp">
+      <Filter>头文件\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="extensions\smart_ban.hpp">
+      <Filter>头文件\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="extensions\ut_metadata.hpp">
+      <Filter>头文件\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="extensions\ut_pex.hpp">
+      <Filter>头文件\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="kademlia\dht_observer.hpp">
+      <Filter>头文件\kademlia</Filter>
+    </ClInclude>
+    <ClInclude Include="kademlia\dht_tracker.hpp">
+      <Filter>头文件\kademlia</Filter>
+    </ClInclude>
+    <ClInclude Include="kademlia\find_data.hpp">
+      <Filter>头文件\kademlia</Filter>
+    </ClInclude>
+    <ClInclude Include="kademlia\get_item.hpp">
+      <Filter>头文件\kademlia</Filter>
+    </ClInclude>
+    <ClInclude Include="kademlia\get_peers.hpp">
+      <Filter>头文件\kademlia</Filter>
+    </ClInclude>
+    <ClInclude Include="kademlia\item.hpp">
+      <Filter>头文件\kademlia</Filter>
+    </ClInclude>
+    <ClInclude Include="kademlia\logging.hpp">
+      <Filter>头文件\kademlia</Filter>
+    </ClInclude>
+    <ClInclude Include="kademlia\msg.hpp">
+      <Filter>头文件\kademlia</Filter>
+    </ClInclude>
+    <ClInclude Include="kademlia\node.hpp">
+      <Filter>头文件\kademlia</Filter>
+    </ClInclude>
+    <ClInclude Include="kademlia\node_entry.hpp">
+      <Filter>头文件\kademlia</Filter>
+    </ClInclude>
+    <ClInclude Include="kademlia\node_id.hpp">
+      <Filter>头文件\kademlia</Filter>
+    </ClInclude>
+    <ClInclude Include="kademlia\observer.hpp">
+      <Filter>头文件\kademlia</Filter>
+    </ClInclude>
+    <ClInclude Include="kademlia\refresh.hpp">
+      <Filter>头文件\kademlia</Filter>
+    </ClInclude>
+    <ClInclude Include="kademlia\routing_table.hpp">
+      <Filter>头文件\kademlia</Filter>
+    </ClInclude>
+    <ClInclude Include="kademlia\rpc_manager.hpp">
+      <Filter>头文件\kademlia</Filter>
+    </ClInclude>
+    <ClInclude Include="kademlia\traversal_algorithm.hpp">
+      <Filter>头文件\kademlia</Filter>
+    </ClInclude>
+    <ClInclude Include="union_endpoint.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="upnp.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="utf8.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="utp_socket_manager.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="utp_stream.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="version.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="web_connection_base.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="web_peer_connection.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="xml_parse.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ConvertUTF.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GeoIP.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tommath.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tommath_class.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tommath_superclass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="add_torrent_params.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="address.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="alert.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="alert_dispatcher.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="alert_manager.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="alert_types.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="alloca.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="allocator.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="assert.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bandwidth_limit.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bandwidth_manager.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bandwidth_queue_entry.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bandwidth_socket.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bencode.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bitfield.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bloom_filter.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="broadcast_socket.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bt_peer_connection.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="buffer.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="build_config.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="chained_buffer.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="config.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="connection_queue.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="copy_ptr.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="create_torrent.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deadline_timer.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="debug.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="disk_buffer_holder.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="disk_buffer_pool.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="disk_io_thread.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ed25519.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="entry.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="enum_net.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="error.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="error_code.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="escape_string.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="export.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="extensions.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="file.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="file_pool.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="file_storage.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="fingerprint.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="gzip.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="hasher.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="http_connection.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="http_parser.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="http_seed_connection.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="http_stream.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="http_tracker_connection.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="i2p_stream.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="identify_client.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="instantiate_connection.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="intrusive_ptr_base.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="invariant_check.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="io.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="io_service.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="io_service_fwd.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ip_filter.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ip_voter.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lazy_entry.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lsd.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="magnet_uri.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="max.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="natpmp.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="packet_buffer.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="parse_url.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pe_crypto.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="peer.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="peer_connection.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="peer_id.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="peer_info.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="peer_request.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="piece_block_progress.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="piece_picker.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="policy.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="proxy_base.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ptime.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="puff.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="random.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rss.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="session.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="session_settings.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="session_status.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="settings.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sha1_hash.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="size_type.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sliding_average.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="socket.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="socket_io.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="socket_type.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="socket_type_fwd.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="socks5_stream.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ssl_stream.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stat.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="storage.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="storage_defs.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="string_util.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="thread.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="time.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="timestamp_history.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="torrent.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="torrent_handle.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="torrent_info.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tracker_manager.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="udp_socket.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="udp_tracker_connection.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ed25519\src\fe.h">
+      <Filter>头文件\ed25519</Filter>
+    </ClInclude>
+    <ClInclude Include="ed25519\src\fixedint.h">
+      <Filter>头文件\ed25519</Filter>
+    </ClInclude>
+    <ClInclude Include="ed25519\src\ge.h">
+      <Filter>头文件\ed25519</Filter>
+    </ClInclude>
+    <ClInclude Include="ed25519\src\precomp_data.h">
+      <Filter>头文件\ed25519</Filter>
+    </ClInclude>
+    <ClInclude Include="ed25519\src\sc.h">
+      <Filter>头文件\ed25519</Filter>
+    </ClInclude>
+    <ClInclude Include="ed25519\src\sha512.h">
+      <Filter>头文件\ed25519</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,943 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{48061b37-45e3-405f-8eaa-bc405412e0ac}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{17ef17d3-bec8-4f02-9370-688771855c0b}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Dreamware.Webbox.Utility">
+      <UniqueIdentifier>{86914ec1-5f6c-4ee8-96af-50c5d936a5bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dreamware.Webbox.IO">
+      <UniqueIdentifier>{34658bcf-569e-4617-aded-c42d8da8e939}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dreamware.Webbox.Data">
+      <UniqueIdentifier>{df5f083d-15d4-4ebc-bf41-4a505209209f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dreamware.Webbox.Data\base">
+      <UniqueIdentifier>{c70c1400-b826-44a8-a6e0-45b8eebc354c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Dreamware.Webbox.Common">
+      <UniqueIdentifier>{f010c44d-4784-4445-b133-23bb93623241}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dreamware.Webbox.UnitTest">
+      <UniqueIdentifier>{bac95448-77bb-4acf-9053-1b2d2b25aeeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dreamware.Webbox.Main">
+      <UniqueIdentifier>{f917ddcb-82b5-4471-a2d2-f3452a3e19c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dreamware.Webbox.Main\AppStore">
+      <UniqueIdentifier>{02eb8306-2077-4e80-97a1-09108c922142}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dreamware.Webbox.Main\GameStore">
+      <UniqueIdentifier>{c37252c0-5024-4e7d-8299-8d8f2df2b19d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dreamware.Webbox.UnitTest\HttpTest">
+      <UniqueIdentifier>{2e6d21de-25d2-4d33-a0ba-1e92a3f19fd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dreamware.Webbox.Network">
+      <UniqueIdentifier>{54034d87-b944-4482-b096-2f641a126fa6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dreamware.Webbox.Network\avhttp">
+      <UniqueIdentifier>{ca01808e-f278-4b0e-b1fc-26f9d0d5f3d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dreamware.Webbox.Main\BaseWidget">
+      <UniqueIdentifier>{54e702c5-f5b6-40ed-8c47-fb8a6a2a7537}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dreamware.Webbox.Main\BaseWidget\Dock">
+      <UniqueIdentifier>{80b9da8b-cea1-4baa-8051-52fb913a9047}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dreamware.Webbox.Main\BaseWidget\CoverFlow">
+      <UniqueIdentifier>{01ed41de-b582-4ab4-b2dc-544859c3cdcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dreamware.Webbox.Main\Headers">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Dreamware.Webbox.Main\Src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Dreamware.Webbox.Network\qthttp">
+      <UniqueIdentifier>{948bc46c-0d6c-4bb0-bf23-2c4602f2b893}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\ContentWidget.cpp">
+      <Filter>Dreamware.Webbox.Main\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DropShadowWindow.cpp">
+      <Filter>Dreamware.Webbox.Main\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\MainWindow.cpp">
+      <Filter>Dreamware.Webbox.Main\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\TitleWidget.cpp">
+      <Filter>Dreamware.Webbox.Main\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="webbox_plugin_import.cpp">
+      <Filter>Dreamware.Webbox.Main\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\LauncherWidget.cpp">
+      <Filter>Dreamware.Webbox.Main\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_DockWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_AeroButton.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_AeroButton.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_AppStoreWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_AppStoreWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_ContentWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_ContentWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_DropShadowWindow.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_DropShadowWindow.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_GlowEffect.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_GlowEffect.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_GlowLabel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_GlowLabel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_ImageLabel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_ImageLabel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_LauncherWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_LauncherWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_MainWindow.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_MainWindow.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_PushButton.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_PushButton.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_TitleWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_TitleWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_BaseStyleWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_BaseStyleWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_DockWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\metaobj\qrc_Webbox.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\MusicWidget.cpp">
+      <Filter>Dreamware.Webbox.Main\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\VideoWidget.cpp">
+      <Filter>Dreamware.Webbox.Main\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ExploreWidget.cpp">
+      <Filter>Dreamware.Webbox.Main\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_GameStoreWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_GameStoreWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_MusicWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_MusicWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_ExploreWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_ExploreWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_VideoWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_VideoWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\SlideShow.cpp">
+      <Filter>Dreamware.Webbox.Main\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_SlideShow.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_SlideShow.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_FlowView.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_FlowView.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_FlowViewPrivate.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_FlowViewPrivate.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_FSImageModel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_FSImageModel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_CLabel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_CLabel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_CarouselWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_CarouselWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\SearchWidget.cpp">
+      <Filter>Dreamware.Webbox.Main\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_ClearLabel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_ClearLabel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_GlowButton.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_GlowButton.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\SecondaryDetailWidget.cpp">
+      <Filter>Dreamware.Webbox.Main\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_AppletWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_AppletWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\GridContentWidget.cpp">
+      <Filter>Dreamware.Webbox.Main\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\NavControlWidget.cpp">
+      <Filter>Dreamware.Webbox.Main\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_GameStorePageWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_GameStorePageWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\RankingLabel.cpp">
+      <Filter>Dreamware.Webbox.Main\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_RankingLabel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_RankingLabel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\StarRatingWidget.cpp">
+      <Filter>Dreamware.Webbox.Main\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_StarRatingWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_StarRatingWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\RankingWidget.cpp">
+      <Filter>Dreamware.Webbox.Main\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_RankingWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_RankingWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_GameRankingWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_GameRankingWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_AppStoreRankingWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_AppStoreRankingWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\NewsWidget.cpp">
+      <Filter>Dreamware.Webbox.Main\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_NewsWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_NewsWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_NavControlWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_NavControlWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_IconWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_IconWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_AppStorePageWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_AppStorePageWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AppStorePageWidget.cpp">
+      <Filter>Dreamware.Webbox.Main\AppStore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AppStoreRankingWidget.cpp">
+      <Filter>Dreamware.Webbox.Main\AppStore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AppStoreWidget.cpp">
+      <Filter>Dreamware.Webbox.Main\AppStore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\GameRankingWidget.cpp">
+      <Filter>Dreamware.Webbox.Main\GameStore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\GameStorePageWidget.cpp">
+      <Filter>Dreamware.Webbox.Main\GameStore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\GameStoreWidget.cpp">
+      <Filter>Dreamware.Webbox.Main\GameStore</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_HttpWindow.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\HttpWindow.cpp">
+      <Filter>Dreamware.Webbox.UnitTest\HttpTest</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_HttpWindow.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\HttpTestMain.cpp">
+      <Filter>Dreamware.Webbox.UnitTest\HttpTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DockWidget.cpp">
+      <Filter>Dreamware.Webbox.Main\BaseWidget\Dock</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\FlowView.cpp">
+      <Filter>Dreamware.Webbox.Main\BaseWidget\CoverFlow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\FlowViewPrivate.cpp">
+      <Filter>Dreamware.Webbox.Main\BaseWidget\CoverFlow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\FSImageModel.cpp">
+      <Filter>Dreamware.Webbox.Main\BaseWidget\CoverFlow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AeroButton.cpp">
+      <Filter>Dreamware.Webbox.Main\BaseWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AppletWidget.cpp">
+      <Filter>Dreamware.Webbox.Main\BaseWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\CarouselWidget.cpp">
+      <Filter>Dreamware.Webbox.Main\BaseWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\BannerButton.cpp">
+      <Filter>Dreamware.Webbox.Main\BaseWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\BaseStyleWidget.cpp">
+      <Filter>Dreamware.Webbox.Main\BaseWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\CLabel.cpp">
+      <Filter>Dreamware.Webbox.Main\BaseWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ClearLabel.cpp">
+      <Filter>Dreamware.Webbox.Main\BaseWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\IconItem.cpp">
+      <Filter>Dreamware.Webbox.Main\BaseWidget\Dock</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\GlowButton.cpp">
+      <Filter>Dreamware.Webbox.Main\BaseWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\GlowEffect.cpp">
+      <Filter>Dreamware.Webbox.Main\BaseWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\GlowLabel.cpp">
+      <Filter>Dreamware.Webbox.Main\BaseWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\IconWidget.cpp">
+      <Filter>Dreamware.Webbox.Main\BaseWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ImageLabel.cpp">
+      <Filter>Dreamware.Webbox.Main\BaseWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ToolButton.cpp">
+      <Filter>Dreamware.Webbox.Main\BaseWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\QXTGlobal.cpp">
+      <Filter>Dreamware.Webbox.Main\BaseWidget\CoverFlow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\OverlayWidget.cpp">
+      <Filter>Dreamware.Webbox.Main\BaseWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\PushButton.cpp">
+      <Filter>Dreamware.Webbox.Main\BaseWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\RoundButton.cpp">
+      <Filter>Dreamware.Webbox.Main\BaseWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\main.cpp">
+      <Filter>Dreamware.Webbox.Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\fileutils.cpp">
+      <Filter>Dreamware.Webbox.Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_fileutils.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_fileutils.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\systemutils.cpp">
+      <Filter>Dreamware.Webbox.Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_systemutils.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_systemutils.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\qthttp\abstractdownloadtask.cpp">
+      <Filter>Dreamware.Webbox.Network\qthttp</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_abstractdownloadtask.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_abstractdownloadtask.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\qthttp\filepiece.cpp">
+      <Filter>Dreamware.Webbox.Network\qthttp</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_filepiece.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_filepiece.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\qthttp\httpdownloadtask.cpp">
+      <Filter>Dreamware.Webbox.Network\qthttp</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_httpdownloadtask.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_httpdownloadtask.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\qthttp\httpdownloadworker.cpp">
+      <Filter>Dreamware.Webbox.Network\qthttp</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_httpdownloadworker.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_httpdownloadworker.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\qthttp\networkerror.cpp">
+      <Filter>Dreamware.Webbox.Network\qthttp</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_networkerror.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_networkerror.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\src\ContentWidget.h">
+      <Filter>Dreamware.Webbox.Main\Headers</Filter>
+    </CustomBuild>
+    <ClInclude Include="..\..\src\MainWindow.define.h">
+      <Filter>Dreamware.Webbox.Main\Headers</Filter>
+    </ClInclude>
+    <CustomBuild Include="..\..\src\MainWindow.h">
+      <Filter>Dreamware.Webbox.Main\Headers</Filter>
+    </CustomBuild>
+    <ClInclude Include="..\..\src\TitleWidget.define.h">
+      <Filter>Dreamware.Webbox.Main\Headers</Filter>
+    </ClInclude>
+    <CustomBuild Include="..\..\src\TitleWidget.h">
+      <Filter>Dreamware.Webbox.Main\Headers</Filter>
+    </CustomBuild>
+    <ClInclude Include="..\..\src\stdafx.h">
+      <Filter>Dreamware.Webbox.Main\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\SearchWidget.h">
+      <Filter>Dreamware.Webbox.Main\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\SecondaryDetailWidget.h">
+      <Filter>Dreamware.Webbox.Main\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\GridContentWidget.h">
+      <Filter>Dreamware.Webbox.Main\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AllCfg.h">
+      <Filter>Dreamware.Webbox.Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\PathUtil.h">
+      <Filter>Dreamware.Webbox.Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AppProperty.define.h">
+      <Filter>Dreamware.Webbox.Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\GameProperty.define.h">
+      <Filter>Dreamware.Webbox.Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\LaunchProperty.define.h">
+      <Filter>Dreamware.Webbox.Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\LaunchProperty.hpp">
+      <Filter>Dreamware.Webbox.Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\GeneralField.hpp">
+      <Filter>Dreamware.Webbox.Data\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\GeneralInstance.hpp">
+      <Filter>Dreamware.Webbox.Data\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\GeneralSchema.hpp">
+      <Filter>Dreamware.Webbox.Data\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Config.h">
+      <Filter>Dreamware.Webbox.Common</Filter>
+    </ClInclude>
+    <CustomBuild Include="..\..\src\NavControlWidget.h">
+      <Filter>Dreamware.Webbox.Main\Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\AppStorePageWidget.h">
+      <Filter>Dreamware.Webbox.Main\AppStore</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\AppStoreRankingWidget.h">
+      <Filter>Dreamware.Webbox.Main\AppStore</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\AppStoreWidget.h">
+      <Filter>Dreamware.Webbox.Main\AppStore</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\GameRankingWidget.h">
+      <Filter>Dreamware.Webbox.Main\GameStore</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\GameStorePageWidget.h">
+      <Filter>Dreamware.Webbox.Main\GameStore</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\GameStoreWidget.h">
+      <Filter>Dreamware.Webbox.Main\GameStore</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\HttpWindow.h">
+      <Filter>Dreamware.Webbox.UnitTest\HttpTest</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\authenticationdialog.ui">
+      <Filter>Dreamware.Webbox.UnitTest\HttpTest</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\DockWidget.h">
+      <Filter>Dreamware.Webbox.Main\BaseWidget\Dock</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\FlowView.h">
+      <Filter>Dreamware.Webbox.Main\BaseWidget\CoverFlow</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\FlowViewPrivate.h">
+      <Filter>Dreamware.Webbox.Main\BaseWidget\CoverFlow</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\FSImageModel.h">
+      <Filter>Dreamware.Webbox.Main\BaseWidget\CoverFlow</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\AeroButton.h">
+      <Filter>Dreamware.Webbox.Main\BaseWidget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\AppletWidget.h">
+      <Filter>Dreamware.Webbox.Main\BaseWidget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\CarouselWidget.h">
+      <Filter>Dreamware.Webbox.Main\BaseWidget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\BaseStyleWidget.h">
+      <Filter>Dreamware.Webbox.Main\BaseWidget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\CLabel.h">
+      <Filter>Dreamware.Webbox.Main\BaseWidget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\ClearLabel.h">
+      <Filter>Dreamware.Webbox.Main\BaseWidget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\DropShadowWindow.h">
+      <Filter>Dreamware.Webbox.Main\BaseWidget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\GlowLabel.h">
+      <Filter>Dreamware.Webbox.Main\BaseWidget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\GlowEffect.h">
+      <Filter>Dreamware.Webbox.Main\BaseWidget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\GlowButton.h">
+      <Filter>Dreamware.Webbox.Main\BaseWidget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\IconItem.h">
+      <Filter>Dreamware.Webbox.Main\BaseWidget\Dock</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\PushButton.h">
+      <Filter>Dreamware.Webbox.Main\BaseWidget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\ImageLabel.h">
+      <Filter>Dreamware.Webbox.Main\BaseWidget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\IconWidget.h">
+      <Filter>Dreamware.Webbox.Main\BaseWidget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\fileutils.h">
+      <Filter>Dreamware.Webbox.Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\systemutils.h">
+      <Filter>Dreamware.Webbox.Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\qthttp\abstractdownloadtask.h">
+      <Filter>Dreamware.Webbox.Network\qthttp</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\qthttp\filepiece.h">
+      <Filter>Dreamware.Webbox.Network\qthttp</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\qthttp\httpdownloadtask.h">
+      <Filter>Dreamware.Webbox.Network\qthttp</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\qthttp\httpdownloadworker.h">
+      <Filter>Dreamware.Webbox.Network\qthttp</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\qthttp\networkerror.h">
+      <Filter>Dreamware.Webbox.Network\qthttp</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\res\Style.css">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\res\Webbox.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\res\img\bk.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\res\img\shadow\shadow_bottom.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\res\img\shadow\shadow_left.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\res\img\shadow\shadow_left_bottom.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\res\img\shadow\shadow_left_top.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\res\img\shadow\shadow_right.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\res\img\shadow\shadow_right_bottom.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\res\img\shadow\shadow_right_top.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\res\img\shadow\shadow_top.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\res\ico\webbox.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\src\LauncherWidget.h">
+      <Filter>Dreamware.Webbox.Main\Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\MusicWidget.h">
+      <Filter>Dreamware.Webbox.Main\Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\ExploreWidget.h">
+      <Filter>Dreamware.Webbox.Main\Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\VideoWidget.h">
+      <Filter>Dreamware.Webbox.Main\Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\SlideShow.h">
+      <Filter>Dreamware.Webbox.Main\Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\RankingLabel.h">
+      <Filter>Dreamware.Webbox.Main\Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\StarRatingWidget.h">
+      <Filter>Dreamware.Webbox.Main\Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\RankingWidget.h">
+      <Filter>Dreamware.Webbox.Main\Headers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\NewsWidget.h">
+      <Filter>Dreamware.Webbox.Main\Headers</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Dreamware.Webbox.Main.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\Common.h">
+      <Filter>Dreamware.Webbox.Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Define.h">
+      <Filter>Dreamware.Webbox.Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\CommonProperty.hpp">
+      <Filter>Dreamware.Webbox.Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AtomReader.hpp">
+      <Filter>Dreamware.Webbox.IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\GeneralDocument.hpp">
+      <Filter>Dreamware.Webbox.Data\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\SchemaHelper.h">
+      <Filter>Dreamware.Webbox.Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\BoxDocument.hpp">
+      <Filter>Dreamware.Webbox.Data\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DocumentManager.hpp">
+      <Filter>Dreamware.Webbox.Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\WebboxMain.hpp">
+      <Filter>Dreamware.Webbox.Main\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\WidgetTool.hpp">
+      <Filter>Dreamware.Webbox.Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ImageUtil.h">
+      <Filter>Dreamware.Webbox.Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Logger.hpp">
+      <Filter>Dreamware.Webbox.Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Console.hpp">
+      <Filter>Dreamware.Webbox.Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\HttpTask.hpp">
+      <Filter>Dreamware.Webbox.Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\P2PTask.hpp">
+      <Filter>Dreamware.Webbox.Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\BaiduYunTask.hpp">
+      <Filter>Dreamware.Webbox.Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\WebTaskManager.hpp">
+      <Filter>Dreamware.Webbox.Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\metaobj\ui_authenticationdialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\avhttp\include\avhttp\async_read_body.hpp">
+      <Filter>Dreamware.Webbox.Network\avhttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\avhttp\include\avhttp\bencode.hpp">
+      <Filter>Dreamware.Webbox.Network\avhttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\avhttp\include\avhttp\bitfield.hpp">
+      <Filter>Dreamware.Webbox.Network\avhttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\avhttp\include\avhttp\completion_condition.hpp">
+      <Filter>Dreamware.Webbox.Network\avhttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\avhttp\include\avhttp\cookie.hpp">
+      <Filter>Dreamware.Webbox.Network\avhttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\avhttp\include\avhttp\default_storage.hpp">
+      <Filter>Dreamware.Webbox.Network\avhttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\avhttp\include\avhttp\detail\abi_prefix.hpp">
+      <Filter>Dreamware.Webbox.Network\avhttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\avhttp\include\avhttp\detail\abi_suffix.hpp">
+      <Filter>Dreamware.Webbox.Network\avhttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\avhttp\include\avhttp\detail\error_codec.hpp">
+      <Filter>Dreamware.Webbox.Network\avhttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\avhttp\include\avhttp\detail\escape_string.hpp">
+      <Filter>Dreamware.Webbox.Network\avhttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\avhttp\include\avhttp\detail\handler_type_requirements.hpp">
+      <Filter>Dreamware.Webbox.Network\avhttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\avhttp\include\avhttp\detail\io.hpp">
+      <Filter>Dreamware.Webbox.Network\avhttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\avhttp\include\avhttp\detail\parsers.hpp">
+      <Filter>Dreamware.Webbox.Network\avhttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\avhttp\include\avhttp\detail\socket_type.hpp">
+      <Filter>Dreamware.Webbox.Network\avhttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\avhttp\include\avhttp\detail\ssl_stream.hpp">
+      <Filter>Dreamware.Webbox.Network\avhttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\avhttp\include\avhttp\detail\utf8.hpp">
+      <Filter>Dreamware.Webbox.Network\avhttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\avhttp\include\avhttp\entry.hpp">
+      <Filter>Dreamware.Webbox.Network\avhttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\avhttp\include\avhttp\file.hpp">
+      <Filter>Dreamware.Webbox.Network\avhttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\avhttp\include\avhttp\file_upload.hpp">
+      <Filter>Dreamware.Webbox.Network\avhttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\avhttp\include\avhttp\http_stream.hpp">
+      <Filter>Dreamware.Webbox.Network\avhttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\avhttp\include\avhttp\impl\src.hpp">
+      <Filter>Dreamware.Webbox.Network\avhttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\avhttp\include\avhttp\logging.hpp">
+      <Filter>Dreamware.Webbox.Network\avhttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\avhttp\include\avhttp\multi_download.hpp">
+      <Filter>Dreamware.Webbox.Network\avhttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\avhttp\include\avhttp\post_form.hpp">
+      <Filter>Dreamware.Webbox.Network\avhttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\avhttp\include\avhttp\rangefield.hpp">
+      <Filter>Dreamware.Webbox.Network\avhttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\avhttp\include\avhttp\read_body.hpp">
+      <Filter>Dreamware.Webbox.Network\avhttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\avhttp\include\avhttp\settings.hpp">
+      <Filter>Dreamware.Webbox.Network\avhttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\avhttp\include\avhttp\storage_interface.hpp">
+      <Filter>Dreamware.Webbox.Network\avhttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\avhttp\include\avhttp\url.hpp">
+      <Filter>Dreamware.Webbox.Network\avhttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\avhttp\include\avhttp\version.hpp">
+      <Filter>Dreamware.Webbox.Network\avhttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\avhttp\include\avhttp.hpp">
+      <Filter>Dreamware.Webbox.Network\avhttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\QXTGlobal.h">
+      <Filter>Dreamware.Webbox.Main\BaseWidget\CoverFlow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AeroButton.define.h">
+      <Filter>Dreamware.Webbox.Main\BaseWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\BannerButton.h">
+      <Filter>Dreamware.Webbox.Main\BaseWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DropShadowWindow.define.h">
+      <Filter>Dreamware.Webbox.Main\BaseWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\GlowButton.define.h">
+      <Filter>Dreamware.Webbox.Main\BaseWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ToolButton.h">
+      <Filter>Dreamware.Webbox.Main\BaseWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\PushButton.define.h">
+      <Filter>Dreamware.Webbox.Main\BaseWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\OverlayWidget.h">
+      <Filter>Dreamware.Webbox.Main\BaseWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\RoundButton.h">
+      <Filter>Dreamware.Webbox.Main\BaseWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\WebTask.hpp">
+      <Filter>Dreamware.Webbox.Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\NetCoreService.hpp">
+      <Filter>Dreamware.Webbox.Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\HttpConfig.hpp">
+      <Filter>Dreamware.Webbox.Network</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

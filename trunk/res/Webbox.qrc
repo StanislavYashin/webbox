@@ -1,0 +1,21 @@
+<RCC>
+    <qresource lang="zh-cn" prefix="/image">
+        <file alias="bk">img/bk.jpg</file>
+    </qresource>
+    <qresource lang="zh-cn" prefix="/image/shadow">
+        <file alias="shadow_bottom">img/shadow/shadow_bottom.png</file>
+        <file alias="shadow_left">img/shadow/shadow_left.png</file>
+        <file alias="shadow_left_bottom">img/shadow/shadow_left_bottom.png</file>
+        <file alias="shadow_left_top">img/shadow/shadow_left_top.png</file>
+        <file alias="shadow_right">img/shadow/shadow_right.png</file>
+        <file alias="shadow_right_bottom">img/shadow/shadow_right_bottom.png</file>
+        <file alias="shadow_right_top">img/shadow/shadow_right_top.png</file>
+        <file alias="shadow_top">img/shadow/shadow_top.png</file>
+    </qresource>
+    <qresource prefix="/">
+        <file alias="webbox">ico/webbox.ico</file>
+    </qresource>
+	 <qresource prefix="/css">
+        <file alias="Style">Style.css</file>
+    </qresource>
+</RCC>
