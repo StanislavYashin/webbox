@@ -12,4 +12,4 @@ this project is still under development so that it's not useable at all.
 +Qt 5 static lib required
 
 
-www.dreamxtudio.com/log.html
+www.dreamxstudio.com/log.html
